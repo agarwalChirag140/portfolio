@@ -9,8 +9,8 @@ import Tailwind from "../Images/Tailwind-removebg-preview.png"
 export const Tech = () => {
     return (
         <>
-            <p className="text-center text-4xl font-bold text-gray-500 mt-3">Tech Stack</p>
-            <div className="grid grid-cols-2 grid-rows-2 sm:flex m-auto sm:justify-evenly w-full sm:w-4/5 mt-10">
+            <p className="text-center text-4xl font-bold text-gray-500 mt-5">Tech Stack</p>
+            <div className="grid grid-cols-2 grid-rows-2 sm:flex m-auto sm:justify-evenly w-full sm:w-3/5 mt-10">
 
                 <div className="m-auto mt-2">
                     <div className="w-32 h-32 sm:w-36 sm:h-36 rounded-full p-4 bg-green-700 ">
@@ -49,7 +49,7 @@ export const Tech = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 grid-rows-1 sm:flex m-auto sm:justify-evenly w-full sm:w-2/5 mt-4">
+            <div className="grid grid-cols-2 grid-rows-1 sm:flex m-auto sm:justify-evenly w-full sm:w-1/3 mt-4 mb-10">
 
                 <div className="m-auto mt-2">
                     <div className="w-32 h-32 sm:w-36 sm:h-36 rounded-full p-4 bg-green-700 ">
@@ -70,7 +70,7 @@ export const Tech = () => {
                 </div>
 
             </div>
-            
+            <hr className="bg-gray-800" />
         </>
     )
 }
