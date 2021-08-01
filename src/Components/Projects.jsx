@@ -8,6 +8,7 @@ import Tailwind from "../Images/Tailwind-removebg-preview.png"
 import netflix from "../Images/Screenshot from 2021-07-30 17-43-06.png"
 import firebase from "../Images/firebase_logo-removebg-preview.png"
 import instagram from "../Images/Screenshot from 2021-07-30 17-57-54.png"
+// import imageSearch from "../Images/"
 
 export const Projects = () => {
     return (
