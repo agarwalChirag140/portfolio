@@ -8,13 +8,13 @@ import Tailwind from "../Images/Tailwind-removebg-preview.png"
 import netflix from "../Images/Screenshot from 2021-07-30 17-43-06.png"
 import firebase from "../Images/firebase_logo-removebg-preview.png"
 import instagram from "../Images/Screenshot from 2021-07-30 17-57-54.png"
-// import imageSearch from "../Images/"
+import imageSearch from "../Images/Image_search.png"
 
 export const Projects = () => {
     return (
         <>
-            <p className="text-center text-4xl font-bold text-gray-500 mt-5">PROJECTS</p>
-            <div className="sm:flex sm:w-3/5 sm:m-auto mt-5">
+            <p className="text-center text-4xl font-bold text-gray-500 pt-10 pb-8">PROJECTS</p>
+            <div className="sm:flex sm:w-3/5 sm:m-auto">
                 {/* Covid Tracker App */}
                 <div className="sm:w-1/3 m-2 shadow-2xl bg-gray-100">
                     <img src={covid} alt="screenshot of covid" className="w-full p-2 mb-3" />
@@ -99,22 +99,22 @@ export const Projects = () => {
                 </div>
             </div>
             {/* 2nd row */}
-            <div className="sm:flex sm:w-3/5 sm:m-auto mt-5 pb-10">
-                {/* Covid Tracker App */}
+            <div className="sm:flex sm:w-3/5 sm:m-auto pt-8 mt-12">
+                {/* Image Search App*/}
                 <div className="sm:w-1/3 m-2 ml-1 shadow-2xl bg-gray-100">
-                    <img src={covid} alt="screenshot of covid" className="w-full p-2 mb-3" />
+                    <img src={imageSearch} alt="screenshot of covid" className="w-full p-2 mb-3" />
                     <hr/>
                     <h1 className="text-center text-2xl font-bold pt-2">Image Search App</h1>
                     <p className="text-center text-lg p-1 pt-4">In this application, we can search the image of different thing. This application is building by using React JS and TailwindCSS</p>
                     <div className="flex w-3/5 m-auto justify-between mb-8 mt-4">
                         <div className="flex">  
-                            <a href="https://github.com/agarwalchirag140/covid-tracker-app" target="_blank" className="flex">
+                            <a href="https://github.com/agarwalchirag140/image_search" target="_blank" className="flex">
                                 <img src={github} alt="github logo" className="w-6" />
                                 <p className="ml-1">Github</p>
                             </a>
                         </div>
                         <div className="flex">
-                            <a href="https://react-covid-tracker-app1.netlify.app/" target="_blank" className="flex">
+                            <a href="https://image-search123.netlify.app/" target="_blank" className="flex">
                                 <FiExternalLink className="mt-1" />
                                 <p className="ml-1">Demo Link</p>
                             </a>
@@ -127,7 +127,7 @@ export const Projects = () => {
                     </div>
                 </div>
             </div>
-            <hr />
+            <hr className="h-1 border-2 bg-gray-100 mt-16" />
         </>
     )
 }

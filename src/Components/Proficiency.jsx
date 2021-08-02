@@ -6,7 +6,7 @@ import DS from "../Images/icon4-removebg-preview.png"
 export const Proficiency = () => {
     return (
         <>
-            <p className="text-center text-4xl font-bold text-gray-500 mt-5">PROFICIENCY</p>
+            <p className="text-center text-4xl font-bold text-gray-500 mt-8">PROFICIENCY</p>
             <div className="sm:flex w-full sm:w-3/5 m-auto justify-between mt-10 mb-10">
                 <div className="w-full sm:w-3/12">
                     <img src={ReactApp} alt="react app" className="w-44 m-auto mt-1" />
@@ -27,7 +27,7 @@ export const Proficiency = () => {
                     <p className="text-center mt-0 mb-2">right place is just my thing</p>
                 </div>
             </div>
-            <hr />
+            <hr className="h-1 border-2 bg-gray-100" />
         </>
     )
 }

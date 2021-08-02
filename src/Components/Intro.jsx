@@ -12,7 +12,7 @@ export const Intro = () => {
     return (
         <>
             <div className="flex justify-center items-center mt-5">
-                <div className="w-48 h-48 sm:w-52 sm:h-52 rounded-full p-2 bg-green-700 ">
+                <div className="w-48 h-48 sm:w-52 sm:h-52 rounded-full p-2 mt-4 bg-green-700 ">
                     <div className="w-44 h-44 sm:w-48 sm:h-48 rounded-full bg-white flex justify-center items-center">
                         <img src={MyPhoto} alt="html logo" className="w-44 h-44 sm:w-48 sm:h-48 rounded-full" />
                     </div>
