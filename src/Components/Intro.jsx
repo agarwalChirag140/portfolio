@@ -55,7 +55,7 @@ export const Intro = () => {
             </div>
 
             {/* Description */}
-            <p className="text-center text-lg pl-1 pr-1 w-full md:w-4/5 lg:w-3/5 xl:w-2/5 m-auto mt-10 border-2 border-black ">A sincere and passionate developer with proficiency in working well with the React-Redux framework. Capable of working under pressure with ease and delivering the best in any situation. Looking forward to creating a celebrated career as a Full Stack Developer.</p>
+            <p className="text-center text-lg pl-1 pr-1 w-full md:w-4/5 lg:w-3/5 xl:w-2/5 m-auto mt-10">A sincere and passionate developer with proficiency in working well with the React-Redux framework. Capable of working under pressure with ease and delivering the best in any situation. Looking forward to creating a celebrated career as a Full Stack Developer.</p>
 
             {/* Resume Button */}
             <div className="w-max sm:w-max m-auto bg-green-700 p-2 mb-10 mt-10">
