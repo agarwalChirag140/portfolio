@@ -107,7 +107,7 @@ export const Projects = () => {
                     <h1 className="text-center text-2xl font-bold pt-2">Image Search App</h1>
                     <p className="text-center text-lg p-1 pt-4">In this application, we can search the image of different thing. This application is building by using React JS and TailwindCSS</p>
                     <div className="flex w-3/5 m-auto justify-between mb-8 mt-4">
-                        <div className="flex">  
+                        <div className="flex w-max">  
                             <a href="https://github.com/agarwalchirag140/image_search" target="_blank" className="flex">
                                 <img src={github} alt="github logo" className="w-6" />
                                 <p className="ml-1">Github</p>
