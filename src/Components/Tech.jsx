@@ -10,7 +10,7 @@ export const Tech = () => {
     return (
         <>
             <p className="text-center text-4xl font-bold text-gray-500 mt-8">Tech Stack</p>
-            <div className="grid grid-cols-2 grid-rows-2 sm:flex m-auto sm:justify-evenly w-full lg:w-3/5 mt-10">
+            <div className="grid grid-cols-2 grid-rows-2 sm:flex m-auto sm:justify-evenly w-full md:w-full lg:w-3/4 xl:w-3/5 mt-10">
 
                 <div className="m-auto mt-2 sm:m-0">
                     <div className="w-32 h-32 sm:w-36 sm:h-36 rounded-full p-4 bg-green-700 ">
@@ -50,7 +50,7 @@ export const Tech = () => {
 
             </div>
 
-            <div className="grid grid-cols-2 grid-rows-1 sm:flex sm:justify-evenly w-full m-auto md:w-2/4 lg:w-2/6 mt-4 mb-10">
+            <div className="grid grid-cols-2 grid-rows-1 sm:flex sm:justify-evenly w-full m-auto md:w-2/4 lg:w-2/5 xl:w-1/3 mt-4 mb-10">
 
                 <div className="m-auto sm:m-0">
                     <div className="w-32 h-32 sm:w-36 sm:h-36 rounded-full p-4 bg-green-700 ">
