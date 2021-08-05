@@ -1,7 +1,6 @@
 import React from "react"
 import ReactApp from "../Images/icon3-removebg-preview (1).png"
 import FrontendApp from "../Images/icon1-removebg-preview (1).png"
-import DS from "../Images/icon4-removebg-preview.png"
 
 export const Proficiency = () => {
     return (
